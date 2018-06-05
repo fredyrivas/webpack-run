@@ -1,0 +1,27 @@
+@import "lib/bootstrap/custom";
+@import "~bootstrap/scss/bootstrap";
+
+@import 'global/fonts';
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+    color: $white;
+    font-family: 'open_sansregular';
+    background-image: url("../img/caballos-salvajes.jpg");
+    background-size: cover;
+    background-position: center top;
+}
